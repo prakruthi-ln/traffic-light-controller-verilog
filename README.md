@@ -16,10 +16,10 @@ The design is simulated and verified using a Verilog testbench.
 Signal Description
 Inputs
 
-|Signal|	  |Description|
- |clk|   	   | System clock|
- |rst|       | Reset signal|
-|sen|       |Vehicle sensor input |
+| Signal | Description |
+ | clk | System clock |
+ | rst | Reset signal |
+| sen | Vehicle sensor input |
 
 
 Outputs
