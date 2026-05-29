@@ -1,8 +1,8 @@
 # traffic-light-controller-verilog
 
-RTL Design of Smart Traffic Light Controller using Verilog HDL
+RTL Design of Traffic Light Controller using Verilog HDL
 
-\# Smart Traffic Light Controller using Verilog HDL 🚦
+\#Traffic Light Controller using Verilog HDL 🚦
 
 
 
@@ -36,7 +36,7 @@ Finite State Machine (FSM) based Traffic Light Controller designed using Verilog
 
 \## 🧪 Simulation
 
-Verified using ModelSim/Vivado Simulator.
+Verified using Vivado Simulator.
 
 
 
@@ -48,5 +48,7 @@ Verified using ModelSim/Vivado Simulator.
 
 \- Verilog Coding
 
+<img width="1359" height="477" alt="Screenshot 2026-02-28 201042" src="https://github.com/user-attachments/assets/7d5318ec-6c25-4a09-b7ae-a58311d8b30b" />
+* Waveform showing state transition*
 \- Digital System Verification
 
