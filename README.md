@@ -13,27 +13,23 @@ Vehicle Sensor Input (sen)
 The controller changes traffic lights dynamically using an FSM and timing counters.
 The design is simulated and verified using a Verilog testbench.
 
-Signal Description
-Inputs
+ Signal Description
 
-| Signal | Description |
- | clk | System clock |
- | rst | Reset signal |
-| sen | Vehicle sensor input |
+| Signal    | Type   | Description          |
+| --------- | ------ | -------------------- |
+| `clk`     | Input  | System clock signal  |
+| `rst`     | Input  | Reset signal         |
+| `sen`     | Input  | Vehicle sensor input |
+| `mr[1:0]` | Output | Main road signal     |
+| `sr[1:0]` | Output | Side road signal     |
 
+ Traffic Light Encoding
 
-Outputs
-
-|Signal|	  |Description|
-|mr[1:0]|	  |Main road traffic signal|
-|sr[1:0]| 	|Side road traffic signal|
-
-Traffic Signal Encoding
-
-|Color|  |Binary Value|
-|Green|	      |00|
-|Yellow|	    |01|
-|Red|         |10|
+| Light  | Binary Value |
+| ------ | ------------ |
+| Green  | `00`         |
+| Yellow | `01`         |
+| Red    | `10`         |
 
 
 FSM States
