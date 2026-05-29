@@ -16,23 +16,24 @@ The design is simulated and verified using a Verilog testbench.
 Signal Description
 Inputs
 
-Signal	  Description
-clk   	  System clock
-rst	      Reset signal
-sen	      Vehicle sensor input  
+|Signal|	  |Description|
+ |clk|   	   | System clock|
+ |rst|       | Reset signal|
+|sen|       |Vehicle sensor input |
+
 
 Outputs
 
-Signal	  Description
-mr[1:0]	  Main road traffic signal
-sr[1:0]  	Side road traffic signal
+|Signal|	  |Description|
+|mr[1:0]|	  |Main road traffic signal|
+|sr[1:0]| 	|Side road traffic signal|
 
 Traffic Signal Encoding
 
-Color	  Binary Value
-Green	       00
-Yellow	     01
-Red	         10
+|Color|  |Binary Value|
+|Green|	      |00|
+|Yellow|	    |01|
+|Red|         |10|
 
 
 FSM States
