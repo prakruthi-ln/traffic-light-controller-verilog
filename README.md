@@ -80,8 +80,8 @@ t → Green signal duration for side road
 ## OUPUT WAVEFORM
 
 <img width="1359" height="477" alt="Screenshot 2026-02-28 201042" src="https://github.com/user-attachments/assets/1957649b-f002-4203-8f31-892e4f594161" />
-## Simulation Result
 
+## Simulation Result
 The waveform shows the traffic light controller working as expected. At the beginning, the **main road stays green** while the **side road remains red**, allowing normal traffic flow. Once the **sensor is triggered**, the controller changes the lights step by step — first the **main road turns yellow**, then the **side road gets green**, followed by **yellow**, and finally returns to the initial state. The delays between each signal change confirm that the timer logic is working properly, and the FSM transitions are happening in the correct order.
 
 
