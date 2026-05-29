@@ -77,7 +77,8 @@ t → Green signal duration for side road
 
 
 
-###OUPUT WAVEFORM
+## OUPUT WAVEFORM
+
 <img width="1359" height="477" alt="Screenshot 2026-02-28 201042" src="https://github.com/user-attachments/assets/1957649b-f002-4203-8f31-892e4f594161" />
 ## Simulation Result
 
